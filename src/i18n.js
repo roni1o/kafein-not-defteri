@@ -23,7 +23,9 @@ const resources = {
       "Edit Note": "Edit Note",
       "No content yet": "No content yet",
       "No results found": "No results found",
-      "Login failed": "Login failed"
+      "Login failed": "Login failed",
+      "Light Theme": "Light",
+      "Dark Theme": "Dark",
     },
   },
   tr: {
@@ -47,7 +49,9 @@ const resources = {
       "Edit Note": "Not Güncelle",
       "No content yet": "Henüz içerik girilmedi",
       "No results found": "Aramanızla eşleşen bir sonuç bulunamadı",
-      "Login failed": "Giriş başarısız"
+      "Login failed": "Giriş başarısız",
+      "Light Theme": "Açık Tema",
+      "Dark Theme": "Koyu Tema",
     },
   },
 };

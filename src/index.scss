@@ -1,17 +1,28 @@
+/* Temel renkler */
 body {
   margin: 0;
-  font-family: sans-serif;
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  transition: background 0.3s ease;
+  font-family: Arial, sans-serif;
 }
 
-:root {
-  --bg-color: #ffffff;
-  --text-color: #000000;
+/* Light Tema */
+body.light {
+  background-color: #f8f9fa;
+  color: #212529;
 }
 
-[data-theme='dark'] {
-  --bg-color: #1e1e1e;
-  --text-color: #f4f4f4;
+/* Dark Tema */
+body.dark {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+/* Navbar örneği */
+.navbar-light {
+  background-color: #e3f2fd;
+  color: #212529;
+}
+
+.navbar-dark {
+  background-color: #343a40;
+  color: #f8f9fa;
 }
